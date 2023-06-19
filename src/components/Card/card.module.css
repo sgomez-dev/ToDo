@@ -17,8 +17,8 @@
     margin-right: auto;
 }
 
-.p.textCompleted {
-    color: aqua;
+.textCompleted {
+    color: #0D0D0D;
     text-decoration: line-through;
 }
 
@@ -39,7 +39,7 @@
 .checkContainer svg {
     width: 100%;
     height: 100%;
-    color: aquamarine;
+    color: #6ecf42;
 }
 
 .deleteButton {
