@@ -19,7 +19,7 @@ export function Header({ onAddTask }) {
     return (
         <header className={styles.header}>
             <img src={logo} className={styles.logo} />
-            <h1>ToDo</h1>
+            <h1>ToDo - List</h1>
             <form onSubmit={handleSubmit} className={styles.newTaskForm}>
                 <input type="text" placeholder='Add new task' value={title} onChange={onChangeTitle} />
                 <button>
