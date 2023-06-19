@@ -1,0 +1,40 @@
+.tasks {
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px; 
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #b8b884;
+}
+
+.header span {
+    background: #9eaeaa;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
