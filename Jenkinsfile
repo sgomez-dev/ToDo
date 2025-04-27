@@ -4,6 +4,7 @@ pipeline {
         SERVER_REG = "balgittuber"
         /** DEPLOYMENT **/
         APP_NAME = "todo-app"
+        SCANNER_HOME = tool 'sonarqube'
     }
 
     stages {
